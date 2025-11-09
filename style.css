@@ -20,7 +20,7 @@ p {
 }
 
 h2 {
-    font-size: 28pt;
+    font-size: 25pt;
     color: black;
     font-family: "Smythe", system-ui;
 }
@@ -43,7 +43,6 @@ h2 {
     width: 30%;
     padding-left: 650px;
     margin-top: 25px;
-    border: 5px solid red; /* Remove after website complete! Only for debugging purposes! */
 }
 
 /* ---------- 'The Album' Image ---------- */
@@ -56,7 +55,6 @@ h2 {
 
 #albumimg img {
     width: 80%;
-    border: 5px solid blue;
 }
 
 /* ---------- Introduction ---------- */
@@ -108,7 +106,7 @@ h2 {
     margin-top: 50px;
     backdrop-filter: blur(8px);
     width: 1820px;
-    height: 700px;  
+    height: 900px;  
     border: 5px solid #36454F;
     margin-bottom: 50px;
     border-radius: 48px;
@@ -122,4 +120,14 @@ h2 {
 #story-album p {
     padding-top: 25px;
     padding-left: 25px;
+}
+
+blockquote {
+    font-size: 20pt;
+    color: black;
+    font-family: "Smythe", system-ui;
+}
+
+#story-album h2 {
+    margin-left: 25px;
 }
